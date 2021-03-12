@@ -1,1 +1,42 @@
 
+double Sin_function(double RadianValue);
+int Cos_function(double RadianValue);
+int Tan_function(double RadianValue);
+int Cosec_function(double RadianValue);
+int Sec_function(double RadianValue);
+int Cot_function(double RadianValue);
+
+// Trignoamtry Equation function
+
+    double Sin_function(double RadianValue ){
+        double result;
+        result=sin(RadianValue);
+        return result;
+    }
+
+    int Cos_function(double RadianValue ){
+       double result;
+       result= cos(RadianValue);
+       return result;
+    }
+    int Tan_function(double RadianValue ){
+        double result;
+        result=tan(RadianValue);
+        return result;
+    }
+    int Cosec_function(double RadianValue ){
+        double result;
+        result=(1.0/sin(RadianValue));
+        return result;
+    }
+    int Sec_function(double RadianValue ){
+        double result;
+        result=cos(RadianValue);
+        return result;
+    }
+    int Cot_function(double RadianValue ){
+        double result;
+        result=tan(RadianValue);
+        return result;
+    }
+
